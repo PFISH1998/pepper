@@ -12,3 +12,5 @@ class Event(models.Model):
     # 关键词
     keyword = models.CharField(max_length=50)
     #yyl
+
+    #lxy到此一游～
