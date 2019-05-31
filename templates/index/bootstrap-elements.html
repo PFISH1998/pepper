@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>风格定制-Bootstrap样例1</title>
+    <!-- Bootstrap css -->
+    <link href="https://magicbox.bk.tencent.com/static_api/v3/assets/bootstrap-3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://magicbox.bk.tencent.com/static_api/v3/assets/fontawesome/css/font-awesome.css" rel="stylesheet">
+    <!-- 当前项目样式文件 -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="css/sb-bk-theme.css" rel="stylesheet">
+    <!--蓝鲸平台APP 公用的样式文件 -->
+
+    <link href="https://magicbox.bk.tencent.com/static_api/v3/bk/css/bk.css" rel="stylesheet">
+    <!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
+    <!--[if lt IE 9]>
+    <script src="https://magicbox.bk.tencent.com/static_api/v3/assets/js/html5shiv.min.js"></script>
+    <script src="https://magicbox.bk.tencent.com/static_api/v3/assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <i class="fa fa-leaf f20 mr5"></i>
+                    后台管理系统
+                </a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu message-dropdown">
+                        <li class="message-preview">
+                            <a href="javascript:;">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="img/50x50.png" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>qcloud</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="icon-time"></i> Yesterday at 4:32 PM</p>
+                                        <p>当前有一条未读的短消息...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="javascript:;">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="img/50x50.png" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>qcloud</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="icon-time"></i> Yesterday at 4:32 PM</p>
+                                        <p>当前有一条未读的短消息...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="javascript:;">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="img/50x50.png" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>qcloud</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="icon-time"></i> Yesterday at 4:32 PM</p>
+                                        <p>当前有一条未读的短消息...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-footer">
+                            <a href="javascript:;">查看所有消息</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu alert-dropdown">
+                        <li>
+                            <a href="javascript:;"><span class="label label-default">&nbsp;&nbsp;提醒内容&nbsp;&nbsp;</span></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;"><span class="label label-primary">&nbsp;&nbsp;提醒内容&nbsp;&nbsp;</span></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;"><span class="label label-success">&nbsp;&nbsp;提醒内容&nbsp;&nbsp;</span></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;"><span class="label label-info">&nbsp;&nbsp;提醒内容&nbsp;&nbsp;</span></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;"><span class="label label-warning">&nbsp;&nbsp;提醒内容&nbsp;&nbsp;</span></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;"><span class="label label-danger">&nbsp;&nbsp;提醒内容&nbsp;&nbsp;</span></a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="javascript:;" class='text-center'>查看所有提醒</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> admin <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="javascript:;"><i class="fa fa-fw fa-user"></i> 用户</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;"><i class="fa fa-fw fa-envelope"></i> 消息盒</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;"><i class="fa fa-fw fa-gear"></i> 设置</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="javascript:;"><i class="fa fa-fw fa-power-off"></i> 退出</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> 首页</a>
+                    </li>
+                    <li>
+                        <a href="tables.html"><i class="fa fa-fw fa-table"></i> 表格</a>
+                    </li>
+                    <li>
+                        <a href="forms.html"><i class="fa fa-fw fa-edit"></i> 表单</a>
+                    </li>
+                    <li class="active">
+                        <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> 排版</a>
+                    </li>
+                    <li>
+                        <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Bootstrap 布局</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> 下拉菜单 <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo" class="collapse">
+                            <li>
+                                <a href="javascript:;">子菜单1 </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">子菜单2</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="row page-header-box">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            我们的品牌
+                        </h1>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <!-- Main jumbotron for a primary marketing message or call to action -->
+                <div class="jumbotron" style="background:#3C8FD5;color:white;padding:30px 40px;">
+                    <h2>
+                        <img class="icon" width='50' src="img/blueking-1.png"> 蓝鲸 BLUEKING</h2>
+                    <p style="max-width:1024px;">蓝鲸（BlueKing）是专门为运营人员提供一站式运营技术解决方案的平台，它依托SOA理念和云技术构建的运维模式，以“原子服务集成”和“工具开放构建”的方式致力于解决“运维基础服务”的无人值守 及 “运维增值服务”。</p>
+                    <p><a href="javascript:;" class="king-btn king-success king-btn-large" role="button">查看详情 &raquo;</a>
+                    </p>
+                </div>
+                <div class="page-header">
+                    <h1><small>我们的优势</small></h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="thumbnail">
+                            <img src="img/1.jpg">
+                            <div class="caption">
+                                <h3 class="text-center">蓝鲸作业平台</h3>
+                                <p class="text-center">是一个以开放的思路实现的”开放式“操作平台，运维人员在作业平台界面中可以定制几乎所有运维操作。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="thumbnail">
+                            <img src="img/2.jpg">
+                            <div class="caption">
+                                <h3 class="text-center">蓝鲸配置平台</h3>
+                                <p class="text-center">专门为运维人员打造的配置管理数据库平台，由面向用户的WEB系统和面向应用程序的接口系统组成。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="thumbnail">
+                            <img src="img/3.jpg">
+                            <div class="caption">
+                                <h3 class="text-center">蓝鲸移动平台</h3>
+                                <p class="text-center">一个通过微信操作直接一键式执行各种场景的移动端运维利器。释放你的时间，解放你的人力。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="thumbnail">
+                            <img src="img/4.jpg">
+                            <div class="caption">
+                                <h3 class="text-center">蓝鲸数据平台</h3>
+                                <p class="text-center">一个活跃在运维领域的实时计算平台，以海量数据快速采集、实时分析计算、大容量存储及API接口等优势。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page-header">
+                    <h1><small>关于我们</small></h1>
+                </div>
+                <div class="well">
+                    <p>蓝鲸是开放的运维PaaS&SaaS云平台，基于IaaS之上构建的运维解决方案。目前先期与腾讯云建立了合作关系，为腾讯云用户提供了专版，后续会逐步依照用户需求支持其他公有云。</p>
+                    <p>截止到2015年5月13日，腾讯云版蓝鲸一共为大家提供了4个通用APP供大家使用，它们分别是配置中心、批量运维、移动运维、成本核算。腾讯游戏内部的更多优秀APP目前正在移植到腾讯云版蓝鲸，后续也会逐渐对外开放，敬请期待~</p>
+                </div>
+
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+    <script src="https://magicbox.bk.tencent.com/static_api/v3/assets/js/jquery-1.10.2.min.js"></script>
+    <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+    <script src="https://magicbox.bk.tencent.com/static_api/v3/assets/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+</body>
+
+</html>
