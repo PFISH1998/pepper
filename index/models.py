@@ -11,4 +11,4 @@ class Event(models.Model):
     mark = models.CharField(max_length=50)
     # 关键词
     keyword = models.CharField(max_length=50)
-
+    #yyl
