@@ -14,3 +14,4 @@ class Event(models.Model):
     #yyl
 
     #lxy到此一游～
+    #SCY
